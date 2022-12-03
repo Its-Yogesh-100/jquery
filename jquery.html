@@ -1,0 +1,53 @@
+<!-- JQUERY IS A JAVASCRIPT FRAMEWORK THAT HELPS USER 
+TO CREATE VARIOUS FUNCTIONALITIES 
+
+1 WE WILL EMBEED JQUERY FROM ONLINE SOURCE
+-->
+
+
+<!-- every Jquery instruction start with 
+$ string symbol -->
+
+<!-- to select any anyselement we use
+$("#id") -->
+
+<!-- this code is short form to select any 
+id in javascript 
+
+  $("#circle").click(function() {
+
+        });
+    
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.1.min.js"></script>
+    
+</head>
+<body>
+
+
+    <div id="circle"> </div>
+    <div class="square" id="yellow"> </div>
+    <div class="square" id="green"> </div>
+
+    <p>This is another paragraph.</p>
+
+<button>Click me to hide paragraphs</button>
+
+    <script>
+
+   
+
+        $("circle").click(function(){
+            alert("circle clicked ");
+        });
+    </script>
+    
+</body>
+</html>
